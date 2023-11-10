@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <h1>List style types</h1>
+    <h3>Unorderd lists</h3>
+    <p>My shopping list</p>
+    <ul>
+        <li>Fruits</li>
+        <li>Onions</li>
+        <li>Cereal</li>
+        <li>Potatoes</li>
+        <li>Lettuce</li>
+        <li>Tomatoes</li>
+    </ul>
+
+    <h3>Orderd lists</h3>
+    <p>Driving Instructions</p>
+    <ol>
+        <li>Unlock the car with your keys</li>
+        <li>Get inside</li>
+        <li>Put key inside the ignition and turn 90 degrees</li>
+        <li>Find the bitiing point on the clutch</li>
+        <li>Release handbrake and add gas</li>
+        <li>Drive safely</li>
+    </ol>
+    <form class="onlshop">
+
+        <fieldset>
+            <legend>Profile</legend>
+            <label for="forename">Forename:</label><br>
+            <input type="text" name="forename" id="forename"><br>
+            <label for="surname">Surname:</label><br>
+            <input type="text" name="surname" id="surname"><br>
+            <label for="email">Email address:</label><br>
+            <input type="email" name="email" id="email"><br>
+            <label for="birthday">Date of Birth:</label><br>
+            <input type="date" name="birthday" id="birthday"><br>
+            <label for="location">Location</label><br>
+            <select name="location" id="location">
+                <option value="default">Select Location</option>
+                <option value="London" style="background-color: rgb(179, 255, 0)">London</option>
+                <option value="West Midlands" style="background-color: rgb(255, 225, 0)">West Midlands</option>
+                <option value="East midlands" style="background-color: rgb(21, 255, 0)">East midlands</option>
+                <option value="North" style="background-color: rgb(0, 55, 255); color: white;">North</option>
+            </select>
+        </fieldset>
+        <br>
+        <p>New / Existing Customer</p>
+        <input type="radio" name="customer" id="New" value="new customer">
+        <label for="new customer">New Customer</label><br>
+        <input type="radio" name="customer" id="existing" value="existing customer">
+        <label for="existing customer">Existing Customer</label><br>
+        <input type="radio" name="customer" id="partner" value="Partner">
+        <label for="partner">Partner</label><br>
+
+        <p>Subject</p>
+        <input type="checkbox" name="subject" id="ordering" value="order">
+        <label for="order">Order Issue</label><br>
+        <input type="checkbox" name="subject" id="delivery" value="delivery">
+        <label for="delivery">Delivery Issue</label><br>
+        <input type="checkbox" name="subject" id="business" value="business">
+        <label for="business">Business Query</label>
+        <br><br>
+        <label for="adsource">Where did you hear about us?</label>
+        <br>
+        <input list="adsource" name="advertising" id="advertising">
+        <datalist id="adsource">
+            <option value="YouTube">
+            <option value="Instagram">
+            <option value="Fashionweek">
+            <option value="Fashionweek">
+            <option value="Other">
+        </datalist>
+        <br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset Form">
+
+    </form>
+    <br><br><br>
+    <form class="ordform">
+        <img src="/media1/christmas_2012_new_2857.jpg" alt="logo" width="100px">
+        <fieldset class="orderdetl">
+            <legend class="order">Order your food </legend>
+            <p>Choose from 3 Starters</p>
+            <input type="checkbox" name="Starter" id="bruschetta">
+            <label for="bruschetta">Spicy Bruschetta</label>
+            <input type="checkbox" name="Starter" id="caesalad">
+            <label for="caesalad">Caeser Salad</label>
+            <input type="checkbox" name="Starter" id="nachos">
+            <label for="nachos">Veggie nachos</label>
+            <br>
+            <br>
+            <hr>
+
+            <label for="main">Main Meal</label>
+            <br>
+            <select name="location" id="location">
+                <option value="curry">Sweet Potato Curry</option>
+                <option value="lasagna">lasagna</option>
+                <option value="tofu">Tofu stir-fry</option>
+            </select>
+            <label for="quantity">no.</label>
+            <input type="number" name="quantity" id="quantity" min="0" max="6">
+            <br>
+            <select name="location" id="location">
+                <option value="curry">Sweet Potato Curry</option>
+                <option value="lasagna">lasagna</option>
+                <option value="tofu">Tofu stir-fry</option>
+            </select>
+            <label for="quantity">no.</label>
+            <input type="number" name="quantity" id="quantity" min="1" max="6">
+            <br>
+            <select name="location" id="location">
+                <option value="curry">Sweet Potato Curry</option>
+                <option value="lasagna">lasagna</option>
+                <option value="tofu">Tofu stir-fry</option>
+            </select>
+            <label for="quantity">no.</label>
+            <input type="number" name="quantity" id="quantity" min="1" max="6">
+            <br>
+            <hr>
+            <p>Sides</p>
+
+            chips
+            stuffed bell pepper
+            spicy rice
+            sauted spinach
+
+
+
+            <hr>
+            <p>Desserts</p>
+
+
+
+            <hr>
+            <p>Drinks</p>
+
+
+
+        </fieldset>
+        <fieldset class="Delivery">
+            <legend>Delivery</legend>
+            <label for="first">First name:</label><br>
+            <input type="text" name="firstname" id="firstname"><br>
+            <label for="surname">Surname:</label><br>
+            <input type="text" name="surname" id="surname"><br>
+            <label for="email">Email address:</label><br>
+            <input type="email" name="email" id="email"><br>
+            <label for="birthday">Date of Birth:</label><br>
+            <input type="date" name="birthday" id="birthday"><br>
+            <label for="location">Location</label><br>
+            <select name="location" id="location">
+                <option value="default">Select Location</option>
+                <option value="London" style="background-color: rgb(179, 255, 0)">London</option>
+                <option value="West Midlands" style="background-color: rgb(255, 225, 0)">West Midlands</option>
+                <option value="East midlands" style="background-color: rgb(21, 255, 0)">East midlands</option>
+                <option value="North" style="background-color: rgb(0, 55, 255); color: white;">North</option>
+            </select>
+        </fieldset>
+
+
+        <fieldset class="payment">
+            <legend>Payment</legend>
+            <legend>Profile</legend>
+            <label for="forename">Forename:</label><br>
+            <input type="text" name="forename" id="forename"><br>
+            <label for="surname">Surname:</label><br>
+            <input type="text" name="surname" id="surname"><br>
+            <label for="email">Email address:</label><br>
+            <input type="email" name="email" id="email"><br>
+            <label for="birthday">Date of Birth:</label><br>
+            <input type="date" name="birthday" id="birthday"><br>
+            <label for="location">Location</label><br>
+            <select name="location" id="location">
+                <option value="default">Select Location</option>
+                <option value="London" style="background-color: rgb(179, 255, 0)">London</option>
+                <option value="West Midlands" style="background-color: rgb(255, 225, 0)">West Midlands</option>
+                <option value="East midlands" style="background-color: rgb(21, 255, 0)">East midlands</option>
+                <option value="North" style="background-color: rgb(0, 55, 255); color: white;">North</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+
+</html>
